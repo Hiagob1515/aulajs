@@ -14,7 +14,7 @@ function adicionarTarefa(){
     } else{
        const mensagemSucesso =  "Tarefa Adicionada Com Sucesso!";
        mensagem.textContent = mensagemSucesso;
-       mensa.style.color = "#28A745"
+       mensagem.style.color = "#28A745"
     const listaTarefas = document.getElementById("listaTarefas")
     const novaTarefa = document.createElement("li")
     novaTarefa.textContent = tarefa
